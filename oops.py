@@ -35,3 +35,13 @@ class third:
 m3=third()
 m3.addmethod()
 
+class emp:
+    def __init__(self,eid,ename,sal):
+        self.eid=eid
+        self.ename=ename
+        self.sal=sal
+    def display(self):
+        print(self.eid, self.ename,self.sal)
+
+m4=emp(123,"steve",10000)
+m4.display()
